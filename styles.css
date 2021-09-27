@@ -35,3 +35,14 @@ textarea {
     height: 15vh;
     border: 1px solid black;
 }
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
