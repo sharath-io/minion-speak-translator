@@ -1,12 +1,21 @@
-:root{
-    --primary-color: #6EE7B7;
-    --text-color: #111827;
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+
+:root {
+    --primary-color: #FBBF24;
 }
 
-h1 {
+* {
+    font-family: 'Hind', sans-serif;
     text-align: center;
-    padding: 2rem;
+    margin: 0;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: 45px;
     background-color: var(--primary-color);
+    padding: 1rem;
+    border: 5px solid green;
 }
 
 textarea {
@@ -17,14 +26,14 @@ textarea {
     height: 15vh;
 }
 
-.div-button {
-    text-align: center;
-}
-
-#btn-Translate{
-    margin: 0.5rem auto;
+#btn-Translate {
+    padding: 0.5rem;
+    margin: 2rem auto;
+    display: block;
     font-weight: bold;
-    font-size: 1.5rem;
+    border: 1px solid;
+    font-size: 25px;
+    background-color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -36,10 +45,12 @@ textarea {
     border: 1px solid black;
 }
 
-.footer{
-    text-align: center;
+.footer {
     background-color: var(--primary-color);
-    padding: 2rem;
+    margin: 4rem 0rem 0rem 0rem;
+    padding: 1rem;
+    bottom: 0;
+    border: 5px solid green;
 }
 
 .footer-header{
